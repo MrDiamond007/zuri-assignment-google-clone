@@ -66,6 +66,10 @@ main .img-container {
   margin-bottom: 20px;
 }
 
+/* input field starts */
+.input-field {
+  position: relative;
+}
 input {
   display: block;
   border: 1px solid #ddd;
@@ -76,6 +80,7 @@ input {
   width: 100%;
   transition: box-shadow 100ms;
   outline: none;
+  margin-top: 35px;
 }
 input:hover {
   border: 1px solid #fff;
@@ -84,6 +89,22 @@ input:hover {
     0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
     0 0 5px rgba(0, 0, 0, 0.05);
 }
+.search-icon {
+  position: absolute;
+  width: 20px;
+  opacity: 0.4;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+.voice-icon {
+  width: 14px;
+  position: absolute;
+  top: 13px;
+  right: 24px;
+}
+/*input field ends */
+
 .btn-container {
   text-align: center;
 }

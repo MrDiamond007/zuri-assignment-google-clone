@@ -183,11 +183,14 @@ footer h4.advert {
   main .img-container {
     margin: 60px auto 0;
   }
+  .form-field {
+    padding-top: 25px;
+  }
   .btn-container {
     display: none;
   }
   .languages {
-    padding-top: 25px;
+    padding: 30px;
   }
   span.language-links {
     width: 100%;

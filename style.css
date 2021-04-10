@@ -176,14 +176,14 @@ footer h4.advert {
 }
 .footer-links {
   display: flex;
+  justify-content: space-around;
 }
-.left-links,
-.right-links {
-  flex: 1;
-}
-.left-links {
-  padding-left: 50px;
-}
-.right-links {
-  padding-left: 150px;
+@media screen and (max-width: 600px) {
+  .footer-links {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .left-links a:last-child {
+    display: none;
+  }
 }

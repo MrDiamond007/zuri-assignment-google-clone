@@ -177,8 +177,12 @@ footer h4.advert {
 .footer-links {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 6px;
 }
 @media screen and (max-width: 600px) {
+  .languages a {
+    padding-left: 2px;
+  }
   .footer-links {
     flex-direction: column-reverse;
     text-align: center;

@@ -180,6 +180,9 @@ footer h4.advert {
   padding-bottom: 6px;
 }
 @media screen and (max-width: 600px) {
+  main .img-container {
+    margin: 60px auto 0;
+  }
   .btn-container {
     display: none;
   }

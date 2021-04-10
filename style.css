@@ -145,7 +145,6 @@ input:hover {
 footer {
   margin-top: 30px;
   background-color: #f2f2f2;
-  border: 2px solid red;
 }
 
 footer h4 {
@@ -200,6 +199,9 @@ footer h4.advert {
   }
   h4.advert {
     display: none;
+  }
+  .footer {
+    padding-top: 60px;
   }
   .footer-links {
     flex-direction: column-reverse;

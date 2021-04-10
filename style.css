@@ -180,8 +180,19 @@ footer h4.advert {
   padding-bottom: 6px;
 }
 @media screen and (max-width: 600px) {
-  .languages a {
-    padding-left: 2px;
+  .btn-container {
+    display: none;
+  }
+  .languages {
+    padding-top: 25px;
+  }
+  span.language-links {
+    width: 100%;
+    display: block;
+    padding-top: 15px;
+  }
+  h4.advert {
+    display: none;
   }
   .footer-links {
     flex-direction: column-reverse;

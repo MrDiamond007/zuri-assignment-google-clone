@@ -17,7 +17,7 @@ nav {
   padding: 5px 10px;
 }
 nav a {
-  padding: 7px 10px;
+  padding: 5px 10px;
   text-decoration: none;
   color: rgb(0, 0, 0, 0.87);
   font-size: 14px;
@@ -57,7 +57,7 @@ main {
 main .img-container {
   max-width: 250px;
   height: auto;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
 }
 .logo {
   display: block;
@@ -80,7 +80,7 @@ input {
   width: 100%;
   transition: box-shadow 100ms;
   outline: none;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 input:hover {
   border: 1px solid #fff;
@@ -113,6 +113,7 @@ input:hover {
   background-color: rgba(128, 128, 128, 0.1);
   padding: 8px 16px;
   margin-right: 7px;
+  margin-bottom: 7px;
   border-radius: 4px;
   border: 1px solid transparent;
   cursor: pointer;
@@ -123,7 +124,7 @@ input:hover {
   transition: border-color 100ms;
 }
 .btn-container button:hover {
-  border: 1px solid rgba(128, 128, 128, 0.2);
+  border: 1px solid rgba(288, 288, 288, 0.1);
 }
 .language {
   text-align: center;
@@ -143,6 +144,46 @@ input:hover {
 }
 footer {
   margin-top: 30px;
-  background-color: rgba(222, 222, 222, 0.9);
-  padding: 10px 30px;
+  background-color: #f2f2f2;
+}
+
+footer h4 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  line-height: 39px;
+  font-weight: 400;
+  padding-left: 29px;
+  border-bottom: 1px solid #ddd;
+}
+footer a {
+  color: #5f6368;
+  display: inline-block;
+  padding: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer h4.advert {
+  border: none;
+  text-align: center;
+  padding: 6px 0;
+}
+.advert-logo {
+  height: 15px;
+  margin-right: 2px;
+}
+.footer-links {
+  display: flex;
+}
+.left-links,
+.right-links {
+  flex: 1;
+}
+.left-links {
+  padding-left: 50px;
+}
+.right-links {
+  padding-left: 150px;
 }

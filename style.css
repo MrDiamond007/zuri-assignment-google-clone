@@ -50,28 +50,39 @@ nav a span:hover {
 /* end of nav */
 
 main {
-  padding: 0 30px;
+  padding: 0 15px;
+  max-width: 650px;
+  margin: auto;
 }
 main .img-container {
-  max-width: 400px;
+  max-width: 250px;
   height: auto;
-  margin: 20px auto;
+  margin: 30px auto 0;
 }
 .logo {
   display: block;
   width: 100%;
   object-fit: cover;
+  margin-bottom: 20px;
 }
 
 input {
   display: block;
-  margin: auto;
+  border: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  padding: 13px 13px 13px 45px;
+  border-radius: 25px;
+  width: 100%;
+  transition: box-shadow 100ms;
   outline: none;
-  border-radius: 30px;
-  padding: 10px;
-  height: 40px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  width: 500px;
+}
+input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
 }
 .btn-container {
   text-align: center;

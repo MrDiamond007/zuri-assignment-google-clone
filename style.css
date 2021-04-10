@@ -19,10 +19,10 @@ nav {
 nav a {
   padding: 7px 10px;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0, 0.87);
   font-size: 14px;
-  font-weight: 100;
   text-transform: capitalize;
+  font-weight: 400;
 }
 nav a:hover {
   text-decoration: underline;
@@ -107,17 +107,20 @@ input:hover {
 
 .btn-container {
   text-align: center;
+  margin: 25px 0;
 }
 .btn-container button {
   background-color: rgba(128, 128, 128, 0.1);
-  padding: 10px 15px;
-  margin: 20px 4px;
-  border: none;
-  border-radius: 2px;
-  letter-spacing: 1px;
-  font-weight: 500;
+  padding: 8px 16px;
+  margin-right: 7px;
+  border-radius: 4px;
+  border: 1px solid transparent;
   cursor: pointer;
-  border: 2px solid transparent;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  display: inline-block;
+  outline: none;
+  transition: border-color 100ms;
 }
 .btn-container button:hover {
   border: 1px solid rgba(128, 128, 128, 0.2);
@@ -125,11 +128,14 @@ input:hover {
 .language {
   text-align: center;
   font-size: 13px;
+  color: 111;
+  margin-top: 30px;
 }
 .language a {
-  color: blue;
-  font-weight: thin;
-  padding: 0 5px;
+  color: #1a0dab;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  display: inline-block;
   text-decoration: none;
 }
 .language a:hover {

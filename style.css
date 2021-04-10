@@ -181,7 +181,7 @@ footer h4.advert {
 }
 @media screen and (max-width: 600px) {
   main .img-container {
-    margin: 60px auto 0;
+    margin: 60px auto 30px;
   }
   .form-field {
     padding-top: 25px;
@@ -190,12 +190,15 @@ footer h4.advert {
     display: none;
   }
   .languages {
-    padding: 30px;
+    padding: 50px 0;
   }
   span.language-links {
     width: 100%;
     display: block;
     padding-top: 15px;
+  }
+  h4:first-child {
+    padding: 30px 0;
   }
   h4.advert {
     display: none;
@@ -203,6 +206,7 @@ footer h4.advert {
   .footer-links {
     flex-direction: column-reverse;
     text-align: center;
+    padding: 20px 0;
   }
   .left-links a:last-child {
     display: none;
